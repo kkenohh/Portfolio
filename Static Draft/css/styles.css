@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Shrikhand&display=swap');
 
 *, *::before, *::after {
     box-sizing: border-box;
@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Montserrat';
-    height: 200vh;
+    height: 100%;
     width: 100%;
 }
 
@@ -17,26 +17,18 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 1.5rem;
-    background-color: #000000bb;
+    background-color: #444;
     position: sticky;
     top: 0;
 }
 
 .socials {
     display: flex;
-    gap: 1.25rem;
-}
-
-nav a {
-    color: black;
+    gap: 1.5rem;
 }
 
 nav a:visited {
     color: black;
-}
-
-nav a:hover {
-    cursor: pointer;
 }
 
 i:hover {
@@ -54,8 +46,37 @@ i {
     padding-bottom: 1.25rem;
 }
 
-main {
+.dash-main {
     background-color: white;
     height: 100%;
     width: 100%;
+}
+
+section {
+    height: 25rem;
+    width: 100%;
+}
+
+.content-container {
+    height: 100%;
+    width: 100%;
+}
+
+.introduction {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+p {
+    font-size: 1.4rem;
+}
+
+.name {
+    font-family: 'Shrikhand';
+    font-size: 3rem;
 }
