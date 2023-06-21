@@ -12,7 +12,7 @@ body {
     width: 100%;
 }
 
-nav {
+.nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -27,20 +27,20 @@ nav {
     gap: 1.5rem;
 }
 
-nav a:visited {
+.nav .link:visited {
     color: black;
 }
 
-i:hover {
+.icon:hover {
     color: black;
 }
 
-i {
+.icon {
     color: white;
     transition: transform .4s, border-bottom .2s, padding-bottom .2s, color .2s;
 }
 
-.socials i:hover {
+.socials .icon:hover {
     transform: scale(1.1);
     border-bottom: .25rem solid white;
     padding-bottom: 1.25rem;

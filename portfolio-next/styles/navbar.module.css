@@ -1,0 +1,33 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem;
+  background-color: #444;
+  position: sticky;
+  top: 0;
+}
+
+.socials {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav .link:visited {
+  color: black;
+}
+
+.icon:hover {
+  color: black;
+  transform: scale(1.1);
+}
+
+.icon {
+  color: white;
+  transition: transform .4s, border-bottom .2s, padding-bottom .2s, color .2s;
+}
+
+.socials .icon:hover {
+  border-bottom: .25rem solid white;
+  padding-bottom: .5rem;
+}
