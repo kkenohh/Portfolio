@@ -1,25 +1,49 @@
-.nav {
+.header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1.5rem;
   background-color: #444;
   position: sticky;
   top: 0;
 }
 
+.bars {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  transition: .3s;
+}
+
+.bars:hover {
+  background-color: #333;
+  height: 100%;
+  cursor: pointer;
+}
+
+.darker {
+  background-color: #333;
+}
+
+.normal {
+  background-color: #444;
+}
+
 .socials {
   display: flex;
   gap: 1.5rem;
+  padding: 1.5rem;
 }
 
-.nav .link:visited {
+.header .link:visited {
   color: black;
 }
 
-.icon:hover {
+.socials .icon:hover {
   color: black;
   transform: scale(1.1);
+  cursor: pointer;
 }
 
 .icon {
@@ -30,4 +54,37 @@
 .socials .icon:hover {
   border-bottom: .25rem solid white;
   padding-bottom: .5rem;
+}
+
+
+.navLinks {
+  display: flex;
+  position: absolute;
+  width: 30%;
+  flex-direction: column;
+  background-color: #444;
+  font-size: 1.25rem;
+}
+
+.menuHidden {
+  display: none;
+}
+
+.menuItem {
+  width: 100%;
+  padding: 1.5rem;
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  transition: .4s;
+}
+
+.menuItem:hover {
+  background-color: #222;
+  cursor: pointer;
+}
+
+.singleLink {
+  color: white;
+  text-decoration: none;
 }
