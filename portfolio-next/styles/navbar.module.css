@@ -1,10 +1,13 @@
+.nav {
+  position: sticky;
+  top: 0;
+}
+
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: #444;
-  position: sticky;
-  top: 0;
 }
 
 .bars {
@@ -33,7 +36,7 @@
 .socials {
   display: flex;
   gap: 1.5rem;
-  padding: 1.5rem;
+  padding: 0 1.5rem;
 }
 
 .header .link:visited {
@@ -56,6 +59,12 @@
   padding-bottom: .5rem;
 }
 
+.link {
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .navLinks {
   display: flex;
@@ -76,7 +85,7 @@
   background-color: #333;
   display: flex;
   align-items: center;
-  transition: .4s;
+  transition: .3s;
 }
 
 .menuItem:hover {
