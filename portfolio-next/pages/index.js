@@ -6,8 +6,8 @@ export function Home() {
     <Layout>
       <Image
         src="/../public/images/file-1.jpeg"
-        height={900}
-        width={900}
+        height={1000}
+        width={800}
         alt="Legos"
       />
     </Layout>
