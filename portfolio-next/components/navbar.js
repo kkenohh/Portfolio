@@ -4,6 +4,7 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import clsx from 'clsx'
 import { useState } from 'react';
+import Link from 'next/link'
 
 
 export default function Navbar() {
@@ -30,9 +31,9 @@ export default function Navbar() {
           [styles.menuHidden]: menuOpen === false
         })}
       >
-        <div className={styles.menuItem}><a className={styles.singleLink} href=''>About Me</a></div>
-        <div className={styles.menuItem}><a className={styles.singleLink} href=''>Projects</a></div>
-        <div className={styles.menuItem}><a className={styles.singleLink} href=''>Other</a></div>
+        <Link className={`${styles.singleLink} ${styles.menuItem}`} href='/aboutMe'>About Me</Link>
+        <Link className={`${styles.singleLink} ${styles.menuItem}`} href='/projects'>Projects</Link>
+        <Link className={`${styles.singleLink} ${styles.menuItem}`} href='/other'>Other</Link>
       </div>
     </nav>
   )

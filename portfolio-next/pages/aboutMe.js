@@ -1,12 +1,12 @@
 import Layout from "@/components/layout";
-import Image from "next/image";
 
-export function Home() {
+
+export function About() {
   return (
     <Layout>
-      
+      <div>My name is Ken.</div>
     </Layout>
   )
 }
 
-export default Home;
+export default About;
