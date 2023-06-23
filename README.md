@@ -1,2 +1,2 @@
 # Portfolio
-This is my first portfolio website and first NextJS project. Wish me luck
+This is my first portfolio website and first Nextjs project. Wish me luck
