@@ -31,6 +31,7 @@ export default function Navbar() {
           [styles.menuHidden]: menuOpen === false
         })}
       >
+        <Link className={`${styles.singleLink} ${styles.menuItem}`} href='/'>Home</Link>
         <Link className={`${styles.singleLink} ${styles.menuItem}`} href='/aboutMe'>About Me</Link>
         <Link className={`${styles.singleLink} ${styles.menuItem}`} href='/projects'>Projects</Link>
         <Link className={`${styles.singleLink} ${styles.menuItem}`} href='/other'>Other</Link>
