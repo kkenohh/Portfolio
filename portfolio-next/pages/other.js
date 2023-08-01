@@ -2,8 +2,10 @@ import Layout from "@/components/layout";
 
 export function Other() {
   return (
-    <Layout></Layout>
-  )
-}
+    <div>
+
+    </div>
+  );
+};
 
 export default Other;

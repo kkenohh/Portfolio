@@ -10,6 +10,10 @@ import Link from 'next/link'
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
+  function updateMenu() {
+    setMenuOpen(!menuOpen);
+  }
+
   return (
     <nav className={styles.nav}>
       <div className={styles.header}>
@@ -31,10 +35,10 @@ export default function Navbar() {
           [styles.menuHidden]: menuOpen === false
         })}
       >
-        <Link className={`${styles.singleLink} ${styles.menuItem}`} href='/'>Home</Link>
-        <Link className={`${styles.singleLink} ${styles.menuItem}`} href='/aboutMe'>About Me</Link>
-        <Link className={`${styles.singleLink} ${styles.menuItem}`} href='/projects'>Projects</Link>
-        <Link className={`${styles.singleLink} ${styles.menuItem}`} href='/other'>Other</Link>
+        <Link className={`${styles.singleLink} ${styles.menuItem}`} onClick={updateMenu} href='/'>Home</Link>
+        <Link className={`${styles.singleLink} ${styles.menuItem}`} onClick={updateMenu} href='/aboutMe'>About Me</Link>
+        <Link className={`${styles.singleLink} ${styles.menuItem}`} onClick={updateMenu} href='/projects'>Projects</Link>
+        <Link className={`${styles.singleLink} ${styles.menuItem}`} onClick={updateMenu} href='/other'>Other</Link>
       </div>
     </nav>
   )

@@ -1,13 +1,14 @@
 .nav {
   position: sticky;
   top: 0;
+  z-index: 1;
 }
 
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #444;
+  background-color: #61677A;
 }
 
 .bars {
@@ -20,17 +21,17 @@
 }
 
 .bars:hover {
-  background-color: #333;
+  background-color: #272829;
   height: 100%;
   cursor: pointer;
 }
 
 .darker {
-  background-color: #333;
+  background-color: #272829;
 }
 
 .normal {
-  background-color: #444;
+  background-color: #61677A;
 }
 
 .socials {
@@ -40,11 +41,11 @@
 }
 
 .header .link:visited {
-  color: black;
+  color: #272829;
 }
 
 .socials .icon:hover {
-  color: black;
+  color: #272829;
   transform: scale(1.1);
   cursor: pointer;
 }
