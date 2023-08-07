@@ -10,11 +10,8 @@ body {
     font-family: 'Montserrat';
     height: 100%;
     width: 100%;
-    
-}
-
-main {
     overflow-x: hidden;
+    
 }
 
 .typed-cursor {
