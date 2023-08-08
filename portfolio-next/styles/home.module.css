@@ -1,8 +1,13 @@
 .main {
   scroll-behavior: smooth;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .section {
+  width: 100%;
   height: 30rem;
   display: flex;
   justify-content: center;
@@ -47,14 +52,34 @@
   left: 18%;
 }
 
-.typingSection {
-  margin-left: 20%;
-}
+/* .typingSection {
+  padding-left: 20%;
+} */
 
 .text {
+  position: relative;
+  left: 20%;
   font-size: 2em;
 }
 
 .typing {
   color: #8062D6;
+}
+
+@media screen and (min-width: 598px) {
+  .section {
+    width: 598px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .section {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1028px) {
+  .section {
+    width: 1028px;
+  }
 }

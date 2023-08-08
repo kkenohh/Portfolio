@@ -11,10 +11,13 @@ body {
     height: 100%;
     width: 100%;
     overflow-x: hidden;
-    
+    background-color: #61677A;
 }
 
 .typed-cursor {
     font-size: 2em;
+    position: relative;
+    left: 20%;
     color: #322653;
 }
+

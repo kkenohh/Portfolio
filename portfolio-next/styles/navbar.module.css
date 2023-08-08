@@ -1,7 +1,14 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .nav {
   position: sticky;
   top: 0;
   z-index: 1;
+  width: 100%;
 }
 
 .header {
@@ -97,4 +104,22 @@
 .singleLink {
   color: white;
   text-decoration: none;
+}
+
+@media screen and (min-width: 598px) {
+    .nav {
+      width: 598px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+  .nav {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1028px) {
+  .nav {
+    width: 1028px;
+  }
 }
