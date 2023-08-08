@@ -25,8 +25,8 @@ export default function Navbar() {
           </div>
           <div>
             <div className={styles.socials}>
-              <a href="https://www.linkedin.com/in/ken-oh-64bb66239/" className={styles.link} target="_blank"><FontAwesomeIcon icon={faLinkedin} size='2x' className={styles.icon} /></a>
-              <a href="https://github.com/kkenohh" className={styles.link} target="_blank"><FontAwesomeIcon icon={faGithub} size='2x' className={styles.icon} /></a>
+              <a href="https://www.linkedin.com/in/ken-oh-64bb66239/" className={styles.link} target="_blank" aria-label='LinkedIn Link'><FontAwesomeIcon icon={faLinkedin} size='2x' className={styles.icon} /></a>
+              <a href="https://github.com/kkenohh" className={styles.link} target="_blank" aria-label='GitHub Link'><FontAwesomeIcon icon={faGithub} size='2x' className={styles.icon} /></a>
             </div>
           </div>
         </div>

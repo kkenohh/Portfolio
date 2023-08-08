@@ -32,6 +32,16 @@ export function Home() {
           <span className={`${styles.text} ${styles.typing} typing-cursor`} ref={typing}></span>
         </div>
       </div>
+      <div className={`${styles.section} ${styles.one}`}>
+        <div className={`${styles.welcome} ${styles.oneText}`} data-text='HELLO'>HELLO,</div>
+        <div className={`${styles.welcome} ${styles.oneText} ${styles.name}`} data-text='MY NAME IS KEN'>MY NAME IS KEN</div>
+      </div>
+      <div className={`${styles.section} ${styles.two} ${styles.typingSection}`}>
+        <div>
+          <span className={styles.text}>I am a </span>
+          <span className={`${styles.text} ${styles.typing} typing-cursor`} ref={typing}></span>
+        </div>
+      </div>
     </div>
   );
 };
