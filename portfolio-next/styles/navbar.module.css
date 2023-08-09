@@ -55,16 +55,13 @@
   color: #272829;
   transform: scale(1.1);
   cursor: pointer;
+  border-bottom: .25rem solid white;
+  padding-bottom: .5rem;
 }
 
 .icon {
   color: white;
   transition: transform .4s, border-bottom .2s, padding-bottom .2s, color .2s;
-}
-
-.socials .icon:hover {
-  border-bottom: .25rem solid white;
-  padding-bottom: .5rem;
 }
 
 .link {
