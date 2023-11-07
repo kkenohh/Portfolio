@@ -15,13 +15,21 @@ export default function Navbar() {
   }
 
   return (
-    <div className={`${styles.wrapper}`}>
+    <div className={styles.wrapper}>
       <nav className={styles.nav}>
         <div className={styles.header}>
-          <div className={styles.bars + ' ' + clsx({
+          <div className={styles.hamburger + ' ' + clsx({
             [styles.darker]: menuOpen === true,
             [styles.normal]: menuOpen === false})} onClick={() => setMenuOpen(!menuOpen)}>
-            <FontAwesomeIcon icon={faBars} size='2x' className={styles.icon} />
+            <span className={styles.bars + ' ' + clsx({
+            [styles.transform]: menuOpen === true,
+            [styles.bars]: menuOpen === false})}></span>
+            <span className={styles.bars + ' ' + clsx({
+            [styles.transform]: menuOpen === true,
+            [styles.bars]: menuOpen === false})}></span>
+            <span className={styles.bars + ' ' + clsx({
+            [styles.transform]: menuOpen === true,
+            [styles.bars]: menuOpen === false})}></span>
           </div>
           <div>
             <div className={styles.socials}>

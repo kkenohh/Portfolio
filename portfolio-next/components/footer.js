@@ -12,7 +12,7 @@ export default function Footer() {
 
   return (
     <footer className={`${styles.footer}`}>
-      <div>hi</div>
+      <div></div>
     </footer>
   )
 }
