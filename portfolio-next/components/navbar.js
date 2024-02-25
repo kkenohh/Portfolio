@@ -51,5 +51,7 @@ export default function Navbar() {
 
 // styles.bars + ' ' + 
 
+// PROBLEM: On mobile screen developer tools, the reflection of the words overlaps with the words when the screen gets too small. Possible solution is adding a media query
+
 // PROBLEM: LINES 35 and 36. When menuOpen is false, menuHidden is active, hiding the menu. I only want the menu to be hidden in the case of the hamburger icon being visible and closed. If the hamburger icon is not displayed, the menu should be visible at all times.
 // ^^ RESOLVED. There is redundancy in the navLinks and menuHidden classes of navbar.module.css, but should be fine.
