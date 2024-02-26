@@ -12,7 +12,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding: 0 3rem;
+  padding: 0 3rem 0 0;
 }
 
 .one {
@@ -29,6 +29,7 @@
   position: relative;
   font-size: 2.5rem;
   text-shadow: 0 0 .8rem #bbb;
+  left: 15%;
 }
 
 .oneText::after {
@@ -43,10 +44,6 @@
   background-image: linear-gradient(0, #555 0, transparent 68%);
   line-height: .9;
   text-shadow: none;
-}
-
-.welcome {
-  left: 15%;
 }
 
 .name {

@@ -23,8 +23,8 @@ export function Home() {
   return (
     <div className={styles.main}>
       <div className={`${styles.section} ${styles.one}`}>
-        <div className={`${styles.welcome} ${styles.oneText}`} data-text='HELLO'>HELLO,</div>
-        <div className={`${styles.welcome} ${styles.oneText} ${styles.name}`} data-text='MY NAME IS KEN'>MY NAME IS KEN</div>
+        <div className={`${styles.oneText}`} data-text='HELLO'>HELLO,</div>
+        <div className={`${styles.oneText} ${styles.name}`} data-text='MY NAME IS KEN'>MY NAME IS KEN</div>
       </div>
       <div className={`${styles.section} ${styles.two} ${styles.typingSection}`}>
         <div>

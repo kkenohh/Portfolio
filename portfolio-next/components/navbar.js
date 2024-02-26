@@ -35,7 +35,7 @@ export default function Navbar() {
             [styles.navLinks]: menuOpen === true,
             [styles.menuHidden]: menuOpen === false})}>
             <Link className={`${styles.singleLink} ${styles.menuItem}`} onClick={updateMenu} href='/'>Home</Link>
-            <Link className={`${styles.singleLink} ${styles.menuItem}`} onClick={updateMenu} href='/aboutMe'>About</Link>
+            <Link className={`${styles.singleLink} ${styles.menuItem}`} onClick={updateMenu} href='/aboutMe'>About Me</Link>
             <Link className={`${styles.singleLink} ${styles.menuItem}`} onClick={updateMenu} href='/projects'>Projects</Link>
             <Link className={`${styles.singleLink} ${styles.menuItem}`} onClick={updateMenu} href='/other'>Other</Link>
           </div>
