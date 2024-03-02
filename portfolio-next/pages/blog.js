@@ -1,0 +1,1 @@
+// Try to make it with multiple pages. So a set number of posts on one page, and then u have to click the arrow to go to the next. Also, sort the posts by tag or date (ascending or descending)

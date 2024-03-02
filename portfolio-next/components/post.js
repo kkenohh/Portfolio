@@ -21,3 +21,5 @@ export default function Post() {
     </div>
   )
 }
+
+// date property should be Date object, however that works
