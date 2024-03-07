@@ -1,12 +1,12 @@
 [
   {
-    "title":"",
-    "date":"",
-    "tags":[],
-    "content":"",
-    "image":"",
-    "caption":"",
-    "author":"",
-    "id":""
+    "title":"Title 1",
+    "date":"2024-03-01",
+    "tags":["sports", "jets"],
+    "content":"Random content blah blah blah",
+    "image":"https://upload.wikimedia.org/wikipedia/commons/f/f2/Jalen_Brunson_2023_%28cropped%29.jpg",
+    "caption":"Jalen Brunson",
+    "author":"Ken",
+    "id":"0"
   }
 ]

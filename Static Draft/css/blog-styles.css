@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Shrikhand&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat';
+    height: 100%;
+    width: 100%;
+}
+
+.blog-title {
+  text-align: center;
+  padding: 2rem;
+}
+
+.feed {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10rem;
+}
+
+.post {
+  border: 1px solid black;
+  padding: 3rem 10rem;
+}
+
+.post-title {
+  padding: .5rem 0 0 0;
+}
+
+.tags {
+  padding: 0 0 .5rem 0;
+}
+
